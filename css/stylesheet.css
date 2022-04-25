@@ -1,0 +1,245 @@
+*{
+    font-family: "helvetica Neue", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+    width: 70%;
+}
+/*navigatie maken */
+header{
+    height: 700px;
+}
+header nav{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 70%; /* Full width */
+    margin-left: auto;
+    margin-right: auto;
+}
+header nav ul {
+    background-color: bisque;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2%;
+    clear: both;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 3%;
+    padding: 3%;
+    list-style: none;
+}
+header nav ul li:hover{
+    border-bottom: 2px solid;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+/*header headings italic quote*/
+header h1{
+    margin-top: 2%;
+    font-size: 3em ;
+    color: grey;
+    margin-top: 0;
+}
+header p{
+    font-style: italic;
+}
+/*table 
+/*header img */
+header img{
+    width: 80%;
+}
+header div{
+    float: left;
+    height: 700px;
+    display: block;
+    width: 100%;
+    background-image: url(../img/IMG_1569.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header div h1
+{
+    margin-top: 30%;
+    color: white;
+    text-align: right;
+}
+header div div{
+    float:right;
+    background: none;
+    width: 40%;
+    color: lightgrey;
+}
+/*information en table*/
+main{
+
+}
+main div h1{
+    margin-top: 20%;
+    text-align: center;
+}
+#information table td{
+    border-bottom: 1px solid ;
+    border-left: 1px solid;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: 5%;
+}
+#information{
+    display: block;
+    height: 700px;
+    padding-top: 3%;
+}
+/*Hobbies*/
+#Hobbies{
+    height: 800px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Hobbies h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 33%;
+    font-size: 3.2em;
+}
+#Hobbies ul {
+    font-size: 1.1em;
+    list-style:lower-latin;
+}
+#Hobbies ul ul{
+    margin-left: 5%;
+    list-style: square;
+}
+/*hobbies img*/
+#Hobbies ul img{
+    width: 50%;
+    padding-left: 5%;
+}
+table{
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 5%;
+}
+/*extra*/
+#extra{
+    height: 500px;
+    padding-top: 20%;
+}
+
+
+/*icons kleiner maken en div*/
+#extra div img{
+    width: 4%;
+}
+/*extra buttons*/
+#extra .links a{
+    text-decoration: none;
+    background-color: black;
+    color: white ;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#extra .links a:hover{
+    color:black;
+    background-color: white;
+    border-bottom: 1px solid;
+}
+/*footer*/
+footer{
+    background-color: bisque;
+    height: 40px;
+    text-align: center;
+    padding-top: .3%;
+}
+
+@media only screen and (max-width: 1200px){
+    body {
+      margin: none;
+      width: auto;
+    }
+    header{
+        background-color: bisque;
+
+    }
+    header nav{
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header nav ul{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #extra{
+        width:75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  @media only screen and (max-width: 800px){
+    body{
+        width: 100%;
+    }
+    header{
+        background-color: white;
+        margin-left: 0;
+    }
+
+    header nav{
+        width: 100%; /* Full width */
+        position: fixed;
+
+    }
+    header nav ul{
+        height: 200px;
+        width: 100%;
+    }
+
+    header nav ul li {
+        display: block;
+        padding-top: 3%;
+        list-style: none;
+    }
+
+/*header img */
+header div{
+    float: none;
+    padding-top: 30%;
+    display: inline-block;
+    width: 100%;
+    background-position: center;
+}
+header div h1
+{
+    margin-top: 30%;
+    color: white;
+    text-align: center;
+}
+header div div{
+    float:none;
+    background: none;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: lightgrey;
+}
+/*table main*/
+main div h1{
+    margin-top: 50%;
+}
+
+}
+
+  
+
